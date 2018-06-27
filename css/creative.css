@@ -7,6 +7,44 @@ html {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
+.columnContact1{
+  float: left;
+  width: 50%; 
+  padding: 20px;
+}
+.columnContact2{
+  float: left;
+  width: 50%; 
+  padding: 20px;
+  margin-top: 58px;
+}
+.contactImage{
+  position: relative;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:scale-down;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border:solid 18px #ffffff;
+}
+.button {
+    background-color: #cce6ff;
+    border:  10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover{
+  color: #808080 ;
+    background-color: #e6e6e6;
 
 hr {
   max-width: 50px;
@@ -57,6 +95,7 @@ section {
 .section-heading {
   margin-top: 0;
 }
+
 
 ::-moz-selection {
   color: #fff;
@@ -309,4 +348,31 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+#front{
+  position:absolute ;
+    border:solid 18px #ffffff;
+    width: 180px;
+    height: 600px;
+    left: 858px;
+    top: 0px;
+    background:#ffffff;
+
+.rowContact:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+foot.ul{
+  text-align: center;
+  font-size: 16px;
+}
+
+foot.ul li{
+  display: inline-block;
+  margin: 0 3px;
+/* this changes the li in the ul that is within the footer, by making it an in-line block a margin can be applied*/
 }
